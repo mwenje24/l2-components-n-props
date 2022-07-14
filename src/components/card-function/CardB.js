@@ -4,7 +4,7 @@ function CardB(){
     return (
         <div className="card">
         <img src="https://img.icons8.com/dusk/64/000000/guest-male.png" alt="avatar" className="image"/>
-        <div class="container">
+        <div className="container">
             <h4><b>John Doe</b></h4>
             <p>Architect</p>
         </div>

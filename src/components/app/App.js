@@ -1,5 +1,7 @@
 import logo from '../../logo.svg';
 import CardA from '../card-class/CardA';
+import CardC from '../card-class/CardC';
+import CardD from '../card-function/CardD';
 import CardB from '../card-function/CardB';
 import './App.css';
 
@@ -20,10 +22,10 @@ const users = [
 ]
 
 function App() {
+  const userData = users.map((user) => <CardA name={user.name} role={user.role} image={user.image}/>)
   return (
     <div>
-      {/* <CardA/>
-      <CardB/> */}
+      {userData}
     </div>
   );
 }
